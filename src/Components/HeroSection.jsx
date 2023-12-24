@@ -10,11 +10,11 @@ const HeroSection = () => {
           <div className="sm:order-2">
             <img className="h-[500px] w-auto md:h-[580px]" src={DP} alt="Md Azmi Siddique" />
           </div>
-          <div class="sm:order-1">
+          <div className="heroAbout sm:order-1" data-aos="zoom-in">
             <div className="Name">
               <p>Md Azmi Siddique</p>
             </div>
-            <div className="aboutMe">
+            <div className="heroAboutMe">
               <p>I'm a web developer who's good at making websites look great and work well. I'm also really good at finding clever solutions to problems. Let's work together to build something amazing</p>
 
             </div>
