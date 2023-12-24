@@ -8,8 +8,8 @@ const Navbar = () => {
   };
 
   return (
-    <div className="container mx-auto">
-      <nav className="bg-white border-gray-200 dark:bg-gray-900">
+    <div className="relative">
+      <nav className="bg-white border-gray-200 dark:bg-gray-900 fixed top-0 w-full z-50">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a
             href="https://flowbite.com/"
