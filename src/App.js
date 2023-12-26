@@ -3,13 +3,15 @@ import './App.css';
 import HeroSection from './Components/HeroSection';
 import Navbar from './Components/Navbar';
 import CardDesign from './Components/CardDesign';
+import Skills from './Components/Skills';
 
 function App() {
   return (
     <>
     <Navbar></Navbar>
     <HeroSection></HeroSection>
-    <CardDesign></CardDesign>
+    {/* <CardDesign></CardDesign> */}
+    <Skills></Skills>
     </>
   );
 }
