@@ -27,6 +27,7 @@ const Skills = () => {
               key={index}
               name={skill.name}
               image={skill.image}
+              hoverColor="bg-sky-700"
             />
           ))}
         </div>
