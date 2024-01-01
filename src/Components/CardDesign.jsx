@@ -2,9 +2,9 @@
 import React from "react";
 import { Card, CardActionArea, CardMedia, CardContent, Typography } from "@mui/material";
 
-const CardDesign = ({ name, image, description, imageHeight}) => {
+const CardDesign = ({ name, image, description}) => {
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card className="hover:bg-sky-700" sx={{ maxWidth: 345 }}>
       <CardActionArea>
         <CardMedia
           component="img"
